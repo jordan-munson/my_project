@@ -8,6 +8,6 @@ Software Carpentry Workshop
 import pandas as pd
 
 #Read data files
-dat = pd.read_csv('data/gapminder_gdp_europe.csv')
-
+gdp_europe = pd.read_csv('data/gapminder_gdp_europe.csv')
+gdp_oceania = pd.read_csv('data/gapminder_gdp_oceania')
 
