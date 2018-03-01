@@ -16,5 +16,6 @@ gdp_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col = 'country')
 gdp_africa = pd.read_csv('data/gapminder_gdp_africa.csv', index_col = 'country')
 gdp_all = pd.read_csv('data/gapminder_all.csv', index_col = 'country')
 
+#Plot
 plt.plot(gdp_europe)
 plt.show()
